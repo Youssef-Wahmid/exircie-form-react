@@ -1,0 +1,59 @@
+.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* width: 600px */    
+
+}
+body{
+    background-color: rgb(10, 0, 35);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(51, 0, 170);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 35%;
+}
+label{
+    margin-top: 10px;
+}
+input , select{
+    width: 100%;
+    height: 20px;
+}
+button{
+    padding: 5px 10px;
+    border: red solid;
+    margin-top: 15px;
+    background-color: rgb(249, 113, 145);
+    color: white;
+    
+}
+
+#model-content{
+    background-color: white;
+    width: 90%;
+    text-align: center;
+}
+
+#model{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.237);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.disaibled{
+    background-color: gray;
+}
