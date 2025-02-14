@@ -1,0 +1,14 @@
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: lightblue;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+}
+.active {
+  border-bottom: 3px solid black;
+}
